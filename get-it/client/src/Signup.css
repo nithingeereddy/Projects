@@ -1,0 +1,70 @@
+.signup{
+    background-image: url("https://images.template.net/wp-content/uploads/2014/08/Dimension.png");
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 100px;
+    align-items: center;
+}
+.Signup_logo {
+    object-fit: contain;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.Signup_container {
+    width: 350px;
+    background-color: white;
+    display: flex;
+    height: fit-content;
+    flex-direction: column;
+    padding: 30px;
+    border: 1px solid lightgray;
+}
+.Signup_container > h1 {
+    font-weight: 1000;
+    margin-bottom: 20px;
+}
+.Signup_container > form > h5 {
+    margin-bottom: 5px;
+}
+.Signup_container > form > input {
+    height: 30px;
+    margin-top: ;
+    margin-bottom: 10px;
+    width: 98%;
+    font-size: 14pt;
+}.Signup_container > form > input:hover {
+    background-color: whitesmoke ;
+}
+.CreateA:hover {
+    color: #D8BFD8;  
+}
+.Signup_container {
+    margin-top:5px;
+}
+.CreateA{
+    background-color: black;
+    border-radius: 5px;
+    width: 50%;
+    height:40px;
+    border: 1px solid;
+    color: white;
+    font-weight: 200;
+    font-size: large;
+
+}
+.Signup_signInButton:hover{
+    color: #D8BFD8;
+}
+.Signup_registerButton:hover {
+    color: #D8BFD8;  
+}
+.Signup_registerButton {
+    height: 30px;
+    width: 100%;
+    background-color: black;
+    border: 1px solid;
+    color: white;
+    font-weight: 200;
+    border-radius: 5px;
+    font-size: large;
+}

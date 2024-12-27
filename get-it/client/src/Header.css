@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+body {
+    background-image: url("https://images.template.net/wp-content/uploads/2014/08/Dimension.png");
+    font-family: 'raleway',sans-serif;
+    font-weight: 1000;
+}
+
+.header {
+    background-color: #333;
+    padding: 0px;
+}
+.header_nav {
+    display: flex;
+    padding-left:10px;
+    background-color: #333;
+}
+.header_link1 {
+    padding:15px;
+    text-decoration: none;
+    color: white; 
+    flex-wrap: wrap;
+    cursor: pointer;
+    text-align: right;
+    background-color:orange;
+}
+.header_link1:hover {
+ background-color: #111;   
+}
+.header_link {
+    padding:15px;
+    text-decoration: none;
+    color: white;
+    flex-wrap: wrap;
+    cursor: pointer;
+}    
+
+.header_link:hover {
+    background-color: #111;
+}

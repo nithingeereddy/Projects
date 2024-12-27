@@ -1,0 +1,31 @@
+
+.main-footer{
+    display: flex;
+    padding-bottom: 10px;
+    align-items:initial;
+    justify-content: center;
+    background-color: rgb(26, 9, 9);
+}
+.i{
+    padding: 50px;
+    width: 30%;
+}
+
+ul{
+    color: white;
+    padding-left: 150px;
+    font-weight: 500;
+
+    display: inline-block; 
+}
+.main-footer h3{
+    padding-top: 100px;
+    color: white;
+    padding-right: 50px;
+ 
+}
+.main-footer h4{
+    padding-top: 40px;
+    color: white;
+    padding-bottom: 10px;
+}

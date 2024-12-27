@@ -1,0 +1,48 @@
+@charset "UTF-8";
+
+/* Define custom fonts */
+@font-face {
+    font-family: 'MyCustomFont';
+    src: url('path/to/your/font.ttf') format('truetype');
+    /* Add more src lines for different font formats if needed */
+}
+
+body {
+    font-family: 'MyCustomFont', sans-serif, arial;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th {
+    background-color: #f2f2f2;
+    color: #333;
+    padding: 8px;
+    text-align: left;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+td {
+    padding: 8px;
+}
+
+.delete-btn {
+    background-color: #f44336;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.delete-btn:hover {
+    background-color: #d32f2f;
+}

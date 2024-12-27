@@ -1,0 +1,67 @@
+.login {
+    background-image: url("https://images.template.net/wp-content/uploads/2014/08/Dimension.png");
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 200px;
+}
+.login_logo {
+    object-fit: contain;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.login_container {
+    width: 350px;
+    background-color: white;
+    display: flex;
+    height: fit-content;
+    flex-direction: column;
+    padding: 30px;
+    border: 1px solid lightgray;
+}
+.login_container > h1 {
+    font-weight: 1000;
+    margin-bottom: -5px;
+}
+.login_container > form > h5 {
+    margin-bottom: 2px;
+}
+.login_container > form > input {
+    height: 30px;
+    margin-bottom: 0px;
+    width: 98%;
+    font-size: 14pt;
+}
+.login_container  {
+    margin-top: 10px;
+}
+.login_signInButton {
+    background-color: black;
+    border-radius: 5px;
+    width: 50%;
+    height:40px;
+    border: 1px solid;
+    color: white;
+    font-weight: 200;
+    font-size: large;
+    margin-top: 10px;
+}
+.login_signInButton:hover{
+    color: #D8BFD8;
+}
+.login_registerButton:hover {
+    color: #D8BFD8;  
+}
+.login_container > form > input:hover {
+    background-color: whitesmoke ;
+}
+.login_registerButton {
+    height: 30px;
+    width: 100%;
+    background-color: black;
+    border: 1px solid;
+    color: white;
+    font-weight: 200;
+    border-radius: 5px;
+    font-size: large;
+}

@@ -1,0 +1,35 @@
+body {
+    background-color: #000; /* black background */
+    color: #fff; /* white text */
+}
+
+.container {
+    margin: 50px auto;
+    text-align: center;
+}
+
+h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.raise-ticket-button {
+    background-color: #4CAF50; 
+    color: white;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    text-decoration: none; 
+    display: inline-block;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.raise-ticket-button:hover {
+    background-color: #45a049; 
+}
+
+.raise-ticket-button:focus {
+    outline: none;
+}

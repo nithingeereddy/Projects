@@ -1,0 +1,112 @@
+.login_logo {
+  border-radius: 30px;
+}
+.Request-container{
+  display: flex;
+  padding: 150px;
+  flex-direction: row;
+  align-items: center;
+  border: 1px solid darkgray;
+  background-color: #778899;
+  width: 100%;
+}
+.request-things{
+  padding: 20px;
+  align-items: center;
+}
+
+.request-things .request-box > input {
+  margin-top: 20px;
+  background-color: white ;
+  align-items: center;
+  border: 1px solid white;
+}
+.request-things .request-box > input:hover{
+  background-color: whitesmoke ;
+}
+
+.request-box {
+  text-align: center;
+  padding-right: 100px;
+}
+.request-box >input {
+  padding: 8px;
+  border-radius: 3px;
+  border: 1px solid;
+  width: 80%;
+}
+\\\\\\
+
+h1 {
+  font-weight: 1000;
+}
+.receiver-things {
+  padding-top: 3%;
+  padding-left: 8%;
+}
+.receiver-things .receiver-box > input {
+  margin-bottom: 20px;
+  background-color: white ;
+  border: 1px solid white;
+}
+
+.submit {
+    background-color: black;
+    border-radius: 5px;
+    width: 50%;
+    height:30px;
+    border: 1px solid black;
+    color: white;
+    font-weight: 100;
+    font-size: large;
+}
+
+.receiver-things .receiver-box > input:hover{
+  background-color: whitesmoke ;
+}
+
+.receiver-box {
+padding-bottom: 50px;
+}
+.receiver-box >input {
+  padding: 8px;
+  border-radius: 3px;
+  border: 1px solid;
+  width: 100%;
+  
+}
+input[type=radio] {
+  position: absolute;
+  visibility: hidden;
+  display: none;  
+}
+
+label {
+  color: #D7BDE2;
+  display: inline-block;
+  cursor: pointer;
+  font-weight: bold;
+  text-align: center;
+  padding: 5px 35px;
+  
+  background-color: #515A5A ;
+}
+label:hover{
+  background-color: #292829;
+}
+input[type=radio]:checked + label{
+  color:  #D7BDE2;
+  background: black;
+}
+
+label + input[type=radio] + label {
+  border-left: solid $borderWidth $fg;
+}
+.radio-group {
+  border: solid $borderWidth $fg;
+  display: inline-block;
+  margin: 0px;
+  border-radius: 10px;
+  height: 30px;
+  overflow: hidden;
+}

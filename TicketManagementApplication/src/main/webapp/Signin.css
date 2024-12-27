@@ -1,0 +1,94 @@
+@charset "ISO-8859-1";
+body {
+    font-family: Arial, sans-serif;
+    background-color: #080710;
+    background-image: url('Img1.jpg');
+    background-size:cover;
+    
+}
+
+.header {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.header h1 {
+    color: #ffffff;
+}
+
+.form {
+    width: 300px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: rgba(255,255,255,0.13);
+    border-radius: 10px;
+    border: 2px solid rgba(255,255,255,0.1);
+    box-shadow: 0 0 40px rgba(8,7,16,0.6);
+}
+
+.form h1 {
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    color: #ffffff;
+}
+
+form * {
+    font-family: 'Poppins', sans-serif;
+    color: #ffffff;
+    letter-spacing: 0.5px;
+    outline: none;
+    border: none;
+}
+
+label {
+    display: block;
+    margin-top: 20px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+input[type="email"],
+input[type="password"] {
+    width: 100%;
+    padding: 10px 1px;
+    margin-top: 10px;
+    background-color: rgba(255,255,255,0.07);
+    border-radius: 3px;
+    border: none;
+    font-size: 16px; 
+    font-weight: 300;
+    text-align: center; 
+    
+}
+
+input[type="submit"] {
+    margin-top: 30px;
+    width: 100%;
+    background-color: #ffffff;
+    color: #080710;
+    padding: 12px 0;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+input[type="email"]::placeholder,
+input[type="password"]::placeholder {
+    text-align: center;
+
+}
+
+a {
+    display: block;
+    text-align: center;
+    margin-top: 20px;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}

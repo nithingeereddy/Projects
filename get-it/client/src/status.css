@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Play:wght@400;700&display=swap');
+
+* {
+  font-family: 'Play', sans-serif; 
+}
+
+.App {
+  text-align: center;
+  height: 100vh;
+}
+
+.container {
+  background-color: #ddd;
+  padding: 24px;
+}
+
+.container span {
+  background-color: rgb(243, 243, 243);
+  padding: 24px;
+}
+
+.App.dark {
+  color: white;
+  background: #000;
+}
+
+.App.dark .container {
+  background: #000;
+}
+
+.App.dark .container span {
+  color: #000;
+}
+
+/* network status styles */
+
+
+.status {
+  padding: 40px;
+  min-width: 120px;
+  border-radius: 20px;
+  background-color: #eee;
+  text-align: center;
+  font-size: 80px;
+}
+
+.status.online {
+  border: 8px solid #41a700;
+  color: #41a700;
+}
+
+.status.offline {
+  border: 8px solid #f15c4f;
+  color: #f15c4f;
+}
